@@ -86,7 +86,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.Dog = _Dog2.default;
 	exports.Sheep = _Sheep2.default;
-	//# sourceMappingURL=index.js.map
 
 /***/ }),
 /* 2 */
@@ -130,8 +129,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    return Dog;
 	}(_Animal3.default);
-	//# sourceMappingURL=Dog.js.map
-
 
 	exports.default = Dog;
 
@@ -175,6 +172,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	        get: function get() {
 	            return this._name;
 	        }
+	    }], [{
+	        key: 'staticMethod',
+	        value: function staticMethod() {
+	            console.log('this is a staticMethod');
+	        }
 	    }]);
 
 	    return Animal;
@@ -183,7 +185,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Animal;
 
 	Animal.type = 'Animal';
-	//# sourceMappingURL=Animal.js.map
 
 /***/ }),
 /* 4 */
@@ -218,8 +219,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    return Sheep;
 	}(_Animal3.default);
-	//# sourceMappingURL=Sheep.js.map
-
 
 	exports.default = Sheep;
 

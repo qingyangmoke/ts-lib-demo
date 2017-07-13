@@ -1,6 +1,6 @@
 export default class Animal {
   private _name: String;
-  
+
   constructor(name: String) {
     this._name = name;
   }
@@ -17,6 +17,9 @@ export default class Animal {
     return this._name;
   }
 
-  static type: String = 'Animal';
+  public static type: String = 'Animal';
 
+  public static staticMethod() {
+    console.log('this is a staticMethod');
+  }
 }
