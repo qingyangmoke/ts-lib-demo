@@ -1,14 +1,14 @@
 {
-  "compilerOptions": {
-    "target": "es6",
+  "compilerOptions": { // https://tslang.cn/docs/handbook/compiler-options.html
+    "target": "es6", // 指定ECMAScript目标版本"ES3"（默认），"ES5"，"ES6"/"ES2015"，"ES2016"，"ES2017"或"ESNext"。
     "noImplicitAny": true,
-    "removeComments": true,
+    "removeComments": true,// 删除所有注释，除了以/!*开头的版权信息。
     "preserveConstEnums": true,
-    // "moduleResolution": "node",
-    // "importHelpers": true,
-    "noEmitHelpers": true,
+    "moduleResolution": "node",
+    "importHelpers": true, // 从tslib导入辅助工具函数（比如__extends，__rest等）
+    "noEmitHelpers": true, // 不在输出文件中生成用户自定义的帮助函数代码，如__extends
     "outDir": "src",
-    "sourceMap": false
+    "sourceMap": false // 生成相应的.map文件。
   },
   "include": [
     "ts/**/*"

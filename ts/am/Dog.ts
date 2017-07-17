@@ -1,4 +1,7 @@
 import { default as Animal } from './Animal';
+/**
+ * 继承 多态
+ */
 export default class Dog extends Animal implements IEat {
   
   constructor() {

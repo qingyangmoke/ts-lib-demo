@@ -1,4 +1,29 @@
 
+
+## 使用typescript 项目开发
+
+``` javascript
+
+// 全局安装ts
+npm install -g typescript
+
+// 安装依赖 项目跟目录执行
+npm i
+
+// 打包
+npm run build
+
+// 开发模式
+npm run dev
+
+
+```
+
+## 目录结构
+
+-- src
+
+---- 
 ## 如果解决 ts 生成js 多了很多_extends 方法？
 
 + 方式一：
