@@ -1,4 +1,4 @@
-import { default as Animal } from './Animal';
+import Animal from './Animal';
 /**
  * 继承 多态
  */
