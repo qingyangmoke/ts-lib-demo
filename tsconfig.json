@@ -4,8 +4,8 @@
     "noImplicitAny": true,
     "removeComments": true,// 删除所有注释，除了以/!*开头的版权信息。
     "preserveConstEnums": true,
-    "moduleResolution": "node",
-    "importHelpers": true, // 从tslib导入辅助工具函数（比如__extends，__rest等）
+    // "moduleResolution": "node",
+    // "importHelpers": true, // 从tslib导入辅助工具函数（比如__extends，__rest等）
     "noEmitHelpers": true, // 不在输出文件中生成用户自定义的帮助函数代码，如__extends
     "outDir": "src",
     "sourceMap": false // 生成相应的.map文件。

@@ -12,14 +12,14 @@ export default class Animal {
   }
 
 
-  public async doSomeThing() {
-    const result = await new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve('play games');
-      }, 2000);
-    });
-    console.log('doSomeThing:', result);
-  }
+  // public async doSomeThing() {
+    // const result = await new Promise((resolve, reject) => {
+    //   setTimeout(() => {
+    //     resolve('play games');
+    //   }, 2000);
+    // });
+    // console.log('doSomeThing:', result);
+  // }
 
   
   public addFood(...abc: Array<any>) {
